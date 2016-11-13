@@ -1,0 +1,96 @@
+/*
+Created by yifan
+*/
+
+.tags{
+    background-color: cadetblue;
+    padding: 7px 7px 7px 13px;
+    border-radius: 13px;
+    font-size: 14px;
+    color: #fff;
+    margin: 3px;
+    display: inline-block;
+}
+
+table.tags_table{
+    border:1px solid #888;
+    padding: 30px;
+}
+
+table.tags_table td{
+    border:solid 1px #add9c0;
+    padding: 20px;
+}
+
+.container{
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+.closeTags{
+    color: #000;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.closeTags:hover{
+    color: #fff;
+}
+
+.selectorButton{
+    display: inline-block;
+    background-color: #5cb85c;
+    color: #fff;
+    border-color: #4cae4c;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 7px 14px 7px 14px;
+    border-radius: 7px;
+}
+
+.selectorButton:hover{
+    display: inline-block;
+    background-color: #449d44;
+    color: #fff;
+    border-color: #4cae4c;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 7px 14px 7px 14px;
+    border-radius: 7px;
+}
+
+div.title{
+    text-align: center;
+}
+
+div.height15{
+    height: 15px;
+}
+
+div.height20{
+    height: 20px;
+}
+div.showBox{
+    margin-top: 15px;
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+footer.yifan{
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+
+footer.yifan h4{
+    color: #888;
+}
+
+footer.yifan h4 a{
+    
+    color: #888;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tags-selector-yifan</title>
+    <link rel="stylesheet" href="css/yifan.selector.css">
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        <h1>Tags-Selector-Yifan</h1>
+    </div>
+    <h1>第一个选择器</h1>
+    <a class="selectorButton" href="javascript:void(0)" onclick="initSelector('name1',5)">初始化选择器1</a>
+    <div class="height15"></div>
+    <table class="tags_table">
+        <tr>
+            <th>编号</th>
+            <th>选择值</th>
+            <th>操作</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>选择值1</td>
+            <td>
+                <!--id命名规则 string_选择器名称_当前编号-->
+                <a id="tags_name1_1" href="javascript:void(0);" onclick="objectSelect(1,'选择值1','name1')">选择</a>
+                <a id="hidden_name1_1" href="javascript:void(0);" onclick="removeTags(1,'name1')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>选择值2</td>
+            <td>
+                <a id="tags_name1_2" href="javascript:void(0);" onclick="objectSelect(2,'选择值2','name1')">选择</a>
+                <a id="hidden_name1_2" href="javascript:void(0);" onclick="removeTags(2,'name1')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>选择值3</td>
+            <td>
+                <a id="tags_name1_3" href="javascript:void(0);" onclick="objectSelect(3,'选择值3','name1')">选择</a>
+                <a id="hidden_name1_3" href="javascript:void(0);" onclick="removeTags(3,'name1')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>选择值4</td>
+            <td>
+                <a id="tags_name1_4" href="javascript:void(0);" onclick="objectSelect(4,'选择值4','name1')">选择</a>
+                <a id="hidden_name1_4" href="javascript:void(0);" onclick="removeTags(4,'name1')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>选择值5</td>
+            <td>
+                <a id="tags_name1_5" href="javascript:void(0);" onclick="objectSelect(5,'选择值5','name1')">选择</a>
+                <a id="hidden_name1_5" href="javascript:void(0);" onclick="removeTags(5,'name1')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>选择值6</td>
+            <td>
+                <a id="tags_name1_6" href="javascript:void(0);" onclick="objectSelect(6,'选择值6','name1')">选择</a>
+                <a id="hidden_name1_6" href="javascript:void(0);" onclick="removeTags(6,'name1')" style="display: none">取消</a>
+            </td>
+        </tr>
+    </table>
+
+    <div class="showBox">
+        <div id="tags_space_name1">
+            <div class="tags">选择器标签基础样式示例 &nbsp;<span class="closeTags">&times;</span></div>
+
+        </div>
+    </div>
+    <!--所选择的标签将在这里生成-->
+
+
+
+    <h1>第二个选择器</h1>
+    <!--第二个选择器-->
+    <a class="selectorButton" href="javascript:void(0)" onclick="initSelector('name2',3)">初始化选择器2</a>
+    <div class="height15"></div>
+    <table class="tags_table">
+        <tr>
+            <th>编号</th>
+            <th>选择值</th>
+            <th>操作</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>选择值1</td>
+            <td>
+                <!--id命名规则 string_选择器名称_当前编号-->
+                <a id="tags_name2_1" href="javascript:void(0);" onclick="objectSelect(1,'选择值1','name2')">选择</a>
+                <a id="hidden_name2_1" href="javascript:void(0);" onclick="removeTags(1,'name2')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>选择值2</td>
+            <td>
+                <a id="tags_name2_2" href="javascript:void(0);" onclick="objectSelect(2,'选择值2','name2')">选择</a>
+                <a id="hidden_name2_2" href="javascript:void(0);" onclick="removeTags(2,'name2')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>选择值3</td>
+            <td>
+                <a id="tags_name2_3" href="javascript:void(0);" onclick="objectSelect(3,'选择值3','name2')">选择</a>
+                <a id="hidden_name2_3" href="javascript:void(0);" onclick="removeTags(3,'name2')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>选择值4</td>
+            <td>
+                <a id="tags_name2_4" href="javascript:void(0);" onclick="objectSelect(4,'选择值4','name2')">选择</a>
+                <a id="hidden_name2_4" href="javascript:void(0);" onclick="removeTags(4,'name2')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>选择值5</td>
+            <td>
+                <a id="tags_name2_5" href="javascript:void(0);" onclick="objectSelect(5,'选择值5','name2')">选择</a>
+                <a id="hidden_name2_5" href="javascript:void(0);" onclick="removeTags(5,'name2')" style="display: none">取消</a>
+            </td>
+        </tr>
+    </table>
+
+    <div class="showBox">
+        <div id="tags_space_name2">
+            <span class="tags">选择器标签基础样式示例 &nbsp;<span class="closeTags">&times;</span></span>
+
+        </div>
+    </div>
+
+    <h1>第三个选择器</h1>
+    <!--第三个选择器-->
+    <a class="selectorButton" href="javascript:void(0)" onclick="initSelector('name3',3)">初始化选择器3</a>
+    <div class="height15"></div>
+    <table class="tags_table">
+        <tr>
+            <th>编号</th>
+            <th>选择值</th>
+            <th>操作</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>选择值1</td>
+            <td>
+                <!--id命名规则 string_选择器名称_当前编号-->
+                <a id="tags_name3_1" href="javascript:void(0);" onclick="objectSelect(1,'选择值1','name3')">选择</a>
+                <a id="hidden_name3_1" href="javascript:void(0);" onclick="removeTags(1,'name3')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>选择值2</td>
+            <td>
+                <a id="tags_name3_2" href="javascript:void(0);" onclick="objectSelect(2,'选择值2','name3')">选择</a>
+                <a id="hidden_name3_2" href="javascript:void(0);" onclick="removeTags(2,'name3')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>选择值3</td>
+            <td>
+                <a id="tags_name3_3" href="javascript:void(0);" onclick="objectSelect(3,'选择值3','name3')">选择</a>
+                <a id="hidden_name3_3" href="javascript:void(0);" onclick="removeTags(3,'name3')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>选择值4</td>
+            <td>
+                <a id="tags_name3_4" href="javascript:void(0);" onclick="objectSelect(4,'选择值4','name3')">选择</a>
+                <a id="hidden_name3_4" href="javascript:void(0);" onclick="removeTags(4,'name3')" style="display: none">取消</a>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>选择值5</td>
+            <td>
+                <a id="tags_name3_5" href="javascript:void(0);" onclick="objectSelect(5,'选择值5','name3')">选择</a>
+                <a id="hidden_name3_5" href="javascript:void(0);" onclick="removeTags(5,'name3')" style="display: none">取消</a>
+            </td>
+        </tr>
+    </table>
+
+    <div class="showBox">
+        <div id="tags_space_name3">
+            <span class="tags">选择器标签基础样式示例 &nbsp;<span class="closeTags">&times;</span></span>
+
+        </div>
+    </div>
+
+
+</div>
+
+<footer class="yifan">
+    <h4>Create By yifan with <a target="_blank" href="http://github.com/Eternally-1139">github.com/Eternally-1139</a></h4>
+</footer>
+
+</body>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/yifan.selector.js"></script>
+</html>
